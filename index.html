@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>李佳乐的项目作品集 | 嵌入式开发求职</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { background-color: #0f141c; color: #f0f6fc; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; line-height: 1.5; }
+    header { display: flex; justify-content: space-between; align-items: center; padding: 20px 40px; border-bottom: 1px solid #21262d; background-color: #161b22; }
+    .nav-title { font-size: 1.1rem; font-weight: 600; }
+    .nav-links a { color: #8b949e; text-decoration: none; margin-left: 20px; font-size: 0.95rem; }
+    .nav-links a.active { color: #58a6ff; font-weight: bold; }
+    .hero { text-align: center; padding: 50px 20px 30px; }
+    .hero h1 { font-size: 2.2rem; margin-bottom: 10px; font-weight: 700; }
+    .hero p { color: #8b949e; font-size: 1.1rem; }
+    .container { max-width: 1200px; margin: 0 auto; display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 24px; padding: 20px; }
+    .card { background-color: #161b22; border: 1px solid #30363d; border-radius: 10px; overflow: hidden; display: flex; flex-direction: column; transition: transform 0.2s, border-color 0.2s; }
+    .card:hover { transform: translateY(-4px); border-color: #58a6ff; }
+    .card-title { padding: 16px 20px; font-size: 1.15rem; font-weight: 600; border-bottom: 1px solid #21262d; }
+    .card-img { width: 100%; height: 200px; object-fit: cover; background-color: #0d1117; }
+    .card-body { padding: 20px; flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between; }
+    .card-desc { color: #c9d1d9; font-size: 0.95rem; margin-bottom: 20px; }
+    .btn-group { display: flex; gap: 10px; margin-bottom: 15px; }
+    .btn { flex: 1; text-align: center; padding: 8px 12px; border-radius: 6px; font-size: 0.85rem; text-decoration: none; font-weight: 500; cursor: pointer; }
+    .btn-primary { background-color: #1f6feb; color: #fff; }
+    .btn-outline { background-color: #21262d; color: #c9d1d9; border: 1px solid #30363d; }
+    .btn:hover { opacity: 0.85; }
+    .footer-links { text-align: right; font-size: 0.8rem; color: #8b949e; }
+    .footer-links a { color: #58a6ff; text-decoration: none; }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="nav-title">李佳乐的项目作品集 | 嵌入式开发求职</div>
+    <div class="nav-links">
+      <a href="#about">关于我</a>
+      <a href="#projects" class="active">项目展示</a>
+      <a href="#contact">联系方式</a>
+    </div>
+  </header>
+
+  <div class="hero">
+    <h1>嵌入式开发项目作品集</h1>
+    <p>寻找嵌入式软件 / 硬件开发实习生岗位</p>
+  </div>
+
+  <div class="container" id="projects">
+    <!-- 项目 1 -->
+    <div class="card">
+      <div class="card-title">ESP多功能微控制器系统 (立创EDA)</div>
+      <div style="background-color:#07162c; height:200px; display:flex; align-items:center; justify-content:center; color:#58a6ff; font-size:0.9rem;">
+        [PCB Layout 与 3D 渲染视图]
+      </div>
+      <div class="card-body">
+        <p class="card-desc">使用立创EDA进行PCB绘制与电路设计，集成ESP系列微控制器，实现紧凑、稳定的外设扩展与电源管理。</p>
+        <div>
+          <div class="btn-group">
+            <a href="https://github.com/lijiale-embed/ESP32-Smart-Monitor-Hardware" target="_blank" class="btn btn-primary">查看详情</a>
+            <a href="https://github.com/lijiale-embed/ESP32-Smart-Monitor-Hardware" target="_blank" class="btn btn-outline">EDA工程</a>
+          </div>
+          <div class="footer-links">
+            <a href="https://github.com/lijiale-embed/ESP32-Smart-Monitor-Hardware" target="_blank">在线预览 / GitHub</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 项目 2 -->
+    <div class="card">
+      <div class="card-title">基于盲道识别的自主导盲小车 (树莓派 & STC)</div>
+      <div style="background-color:#1c2128; height:200px; display:flex; align-items:center; justify-content:center; color:#58a6ff; font-size:0.9rem;">
+        [车载平台与双MCU手持端实物]
+      </div>
+      <div class="card-body">
+        <p class="card-desc">基于树莓派4B+与STC双单片机，结合CNN盲道识别与人工势场法主动避障，实现人车互联的自主智能导盲系统。</p>
+        <div>
+          <div class="btn-group">
+            <a href="https://github.com/lijiale-embed/Blind-Guide-Robot-Car" target="_blank" class="btn btn-primary">查看详情</a>
+            <a href="https://github.com/lijiale-embed/Blind-Guide-Robot-Car" target="_blank" class="btn btn-outline">期刊论文</a>
+          </div>
+          <div class="footer-links">
+            <a href="https://github.com/lijiale-embed/Blind-Guide-Robot-Car" target="_blank">在线预览 / GitHub</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 项目 3 -->
+    <div class="card">
+      <div class="card-title">智能饮品制作系统 (嵌入式控制)</div>
+      <div style="background-color:#161b22; height:200px; display:flex; align-items:center; justify-content:center; color:#58a6ff; font-size:0.9rem;">
+        [多路流体控制与闭环称重台架]
+      </div>
+      <div class="card-body">
+        <p class="card-desc">基于嵌入式MCU的多路流体控制、称重反馈与温度调节，实现多口味饮品自动化配比、搅拌与制作。</p>
+        <div>
+          <div class="btn-group">
+            <a href="https://github.com/lijiale-embed/Smart-Beverage-Maker-System" target="_blank" class="btn btn-primary">查看详情</a>
+            <a href="https://github.com/lijiale-embed/Smart-Beverage-Maker-System" target="_blank" class="btn btn-outline">源码文档</a>
+          </div>
+          <div class="footer-links">
+            <a href="https://github.com/lijiale-embed/Smart-Beverage-Maker-System" target="_blank">在线预览 / GitHub</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
