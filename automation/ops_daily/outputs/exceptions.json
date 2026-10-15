@@ -1,0 +1,86 @@
+[
+  {
+    "source": "orders（按文件名拼接后的数据行）",
+    "row": 16,
+    "record_id": "O015",
+    "code": "CONFLICT_DUPLICATE",
+    "reason": "同一编号内容冲突，整组转人工"
+  },
+  {
+    "source": "orders（按文件名拼接后的数据行）",
+    "row": 17,
+    "record_id": "O015",
+    "code": "CONFLICT_DUPLICATE",
+    "reason": "同一编号内容冲突，整组转人工"
+  },
+  {
+    "source": "orders",
+    "row": "",
+    "record_id": "O009",
+    "code": "INVALID_ORDER",
+    "reason": "SKU 缺失或不在商品主数据中"
+  },
+  {
+    "source": "orders",
+    "row": "",
+    "record_id": "O010",
+    "code": "INVALID_ORDER",
+    "reason": "金额必须为非负数且最多两位小数"
+  },
+  {
+    "source": "orders",
+    "row": "",
+    "record_id": "O011",
+    "code": "INVALID_ORDER",
+    "reason": "数量须为有效整数"
+  },
+  {
+    "source": "orders",
+    "row": "",
+    "record_id": "O012",
+    "code": "INVALID_ORDER",
+    "reason": "SKU 缺失或不在商品主数据中"
+  },
+  {
+    "source": "orders",
+    "row": "",
+    "record_id": "O013",
+    "code": "INVALID_ORDER",
+    "reason": "金额格式错误"
+  },
+  {
+    "source": "orders",
+    "row": "",
+    "record_id": "O014",
+    "code": "INVALID_ORDER",
+    "reason": "Invalid isoformat string: 'bad'"
+  },
+  {
+    "source": "refunds",
+    "row": "",
+    "record_id": "R004",
+    "code": "INVALID_REFUND",
+    "reason": "退款没有对应的当日有效已付订单"
+  },
+  {
+    "source": "refunds",
+    "row": "",
+    "record_id": "R005",
+    "code": "INVALID_REFUND",
+    "reason": "金额必须为非负数且最多两位小数"
+  },
+  {
+    "source": "refunds",
+    "row": "",
+    "record_id": "R008",
+    "code": "INVALID_REFUND",
+    "reason": "退款没有对应的当日有效已付订单"
+  },
+  {
+    "source": "refunds",
+    "row": "",
+    "record_id": "R006",
+    "code": "REFUND_EXCEEDS_ORDER",
+    "reason": "累计退款大于订单金额，整组不计入汇总"
+  }
+]

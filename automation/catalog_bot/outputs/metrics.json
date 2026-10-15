@@ -1,0 +1,15 @@
+{
+  "status": "completed",
+  "input_rows": 10,
+  "counts": {
+    "created": 3,
+    "duplicate_input": 1,
+    "invalid": 3,
+    "failed": 2,
+    "duplicate_existing": 1
+  },
+  "elapsed_seconds": 16.18017,
+  "dataset": "synthetic",
+  "browser": "Microsoft Edge / Playwright",
+  "retries": 2
+}

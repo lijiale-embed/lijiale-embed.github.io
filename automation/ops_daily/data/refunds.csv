@@ -1,0 +1,10 @@
+﻿refund_id,order_id,amount,status
+R001,O001,99,success
+R002,O003,49,success
+R003,O003,49,success
+R002,O003,49,success
+R004,UNKNOWN,10,success
+R005,O001,-10,success
+R006,O002,300,success
+R007,O004,159,pending
+R008,O007,49,success

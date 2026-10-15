@@ -1,0 +1,92 @@
+[
+  {
+    "row": 2,
+    "sku": "SK001",
+    "name": "舒适生活礼盒",
+    "status": "created",
+    "attempts": 1,
+    "reason": "页面提交成功，列表核对通过",
+    "screenshot": ""
+  },
+  {
+    "row": 3,
+    "sku": "SK002",
+    "name": "便携收纳包",
+    "status": "created",
+    "attempts": 1,
+    "reason": "页面提交成功，列表核对通过",
+    "screenshot": ""
+  },
+  {
+    "row": 4,
+    "sku": "SK001",
+    "name": "舒适生活礼盒",
+    "status": "duplicate_input",
+    "attempts": 0,
+    "reason": "输入中完全重复 SKU",
+    "screenshot": ""
+  },
+  {
+    "row": 5,
+    "sku": "BAD001",
+    "name": "异常价格",
+    "status": "invalid",
+    "attempts": 0,
+    "reason": "金额必须为非负数且最多两位小数",
+    "screenshot": ""
+  },
+  {
+    "row": 6,
+    "sku": "BAD002",
+    "name": "",
+    "status": "invalid",
+    "attempts": 0,
+    "reason": "商品名称、SKU 必填",
+    "screenshot": ""
+  },
+  {
+    "row": 7,
+    "sku": "BAD003",
+    "name": "异常库存",
+    "status": "invalid",
+    "attempts": 0,
+    "reason": "数量须为有效整数",
+    "screenshot": ""
+  },
+  {
+    "row": 8,
+    "sku": "RETRY-001",
+    "name": "重试演示商品",
+    "status": "created",
+    "attempts": 2,
+    "reason": "页面提交成功，列表核对通过",
+    "screenshot": ""
+  },
+  {
+    "row": 9,
+    "sku": "FAIL-001",
+    "name": "持续失败演示商品",
+    "status": "failed",
+    "attempts": 3,
+    "reason": "RuntimeError: 演示模式：暂时无法保存，请重试",
+    "screenshot": "screenshots/row-9-failed.png"
+  },
+  {
+    "row": 10,
+    "sku": "PRE001",
+    "name": "已有商品",
+    "status": "duplicate_existing",
+    "attempts": 1,
+    "reason": "后台已有相同 SKU 与内容，跳过",
+    "screenshot": ""
+  },
+  {
+    "row": 11,
+    "sku": "SLOW-001",
+    "name": "超时演示商品",
+    "status": "failed",
+    "attempts": 3,
+    "reason": "TimeoutError: Timeout 1500ms exceeded while waiting for event \"response\"",
+    "screenshot": "screenshots/row-11-failed.png"
+  }
+]

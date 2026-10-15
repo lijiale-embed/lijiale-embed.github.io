@@ -1,0 +1,11 @@
+{
+  "test_count": 17,
+  "failures": 0,
+  "fixture_metrics_matched": "11/11",
+  "synthetic_exception_detection": {
+    "true_positives": 12,
+    "expected_count": 12,
+    "precision": 1.0,
+    "recall": 1.0
+  }
+}

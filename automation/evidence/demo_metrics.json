@@ -1,0 +1,50 @@
+{
+  "ops": {
+    "report_date": "2026-10-15",
+    "gross_sales": 1500.0,
+    "order_count": 6,
+    "refund_amount": 197.0,
+    "net_sales": 1303.0,
+    "units_sold": 10,
+    "low_stock_count": 3,
+    "exception_count": 12,
+    "duplicate_orders_removed": 1,
+    "duplicate_refunds_removed": 1,
+    "excluded_orders": 2,
+    "raw_order_rows": 17,
+    "status": "success",
+    "elapsed_seconds": 0.102094,
+    "dataset": "synthetic"
+  },
+  "catalog": {
+    "status": "completed",
+    "input_rows": 10,
+    "counts": {
+      "created": 3,
+      "duplicate_input": 1,
+      "invalid": 3,
+      "failed": 2,
+      "duplicate_existing": 1
+    },
+    "elapsed_seconds": 16.18017,
+    "dataset": "synthetic",
+    "browser": "Microsoft Edge / Playwright",
+    "retries": 2
+  },
+  "repeat": {
+    "status": "completed",
+    "input_rows": 10,
+    "counts": {
+      "duplicate_existing": 4,
+      "duplicate_input": 1,
+      "invalid": 3,
+      "failed": 2
+    },
+    "elapsed_seconds": 14.855277,
+    "dataset": "synthetic",
+    "browser": "Microsoft Edge / Playwright",
+    "retries": 2
+  },
+  "ops_fixture_metric_agreement": "11/11",
+  "note": "固定模拟样例的指标对照结果，不代表真实业务准确率或人工效率提升；商品写入均通过真实浏览器表单。"
+}

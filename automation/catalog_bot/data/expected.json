@@ -1,0 +1,9 @@
+{
+  "input_rows": 10,
+  "created": 3,
+  "duplicate_input": 1,
+  "duplicate_existing": 1,
+  "invalid": 3,
+  "failed": 2,
+  "attempted_browser_rows": 6
+}
