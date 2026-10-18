@@ -1,0 +1,22 @@
+ M .gitignore
+ M README.md
+ M automation/evidence/pytest.xml
+ M automation/tests/test_automation.py
+ M downloads/automation-source.zip
+ D downloads/李佳乐_beU_RPA自动化实习_投递简历.docx
+ D downloads/李佳乐_beU_RPA自动化实习_投递简历.pdf
+ D downloads/李佳乐_综合技术简历.docx
+ D downloads/李佳乐_综合技术简历.pdf
+ M index.html
+ M projects/beverage.html
+ M projects/catalog-bot.html
+ M projects/esp32.html
+ M projects/guide-car.html
+ M projects/ops-daily.html
+ M styles.css
+?? assets/device-desk.png
+?? assets/favicon.svg
+?? downloads/device-desk-source.zip
+?? fullstack/
+?? projects/device-desk.html
+?? verification/

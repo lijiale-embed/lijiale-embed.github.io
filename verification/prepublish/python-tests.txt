@@ -1,0 +1,26 @@
+============================= test session starts =============================
+platform win32 -- Python 3.12.8, pytest-9.1.1, pluggy-1.6.0 -- <workspace>\.venv\Scripts\python.exe
+cachedir: .pytest_cache
+rootdir: <temporary-review-directory>\site\automation
+collecting ... collected 17 items
+
+tests/test_automation.py::test_daily_golden_metrics_and_exception_ids PASSED [  5%]
+tests/test_automation.py::test_daily_repeat_is_stable_and_workbook_matches PASSED [ 11%]
+tests/test_automation.py::test_daily_missing_column_fails_and_marks_status PASSED [ 17%]
+tests/test_automation.py::test_duplicate_product_master_aborts PASSED    [ 23%]
+tests/test_automation.py::test_bad_money_rejected[NaN] PASSED            [ 29%]
+tests/test_automation.py::test_bad_money_rejected[Infinity] PASSED       [ 35%]
+tests/test_automation.py::test_bad_money_rejected[-1] PASSED             [ 41%]
+tests/test_automation.py::test_bad_money_rejected[1.001] PASSED          [ 47%]
+tests/test_automation.py::test_bad_money_rejected[] PASSED               [ 52%]
+tests/test_automation.py::test_bad_money_rejected[not-a-price] PASSED    [ 58%]
+tests/test_automation.py::test_bad_inventory_rejected[1.5] PASSED        [ 64%]
+tests/test_automation.py::test_bad_inventory_rejected[-1] PASSED         [ 70%]
+tests/test_automation.py::test_bad_inventory_rejected[NaN] PASSED        [ 76%]
+tests/test_automation.py::test_bad_inventory_rejected[] PASSED           [ 82%]
+tests/test_automation.py::test_catalog_validation PASSED                 [ 88%]
+tests/test_automation.py::test_formula_injection_is_text PASSED          [ 94%]
+tests/test_automation.py::test_real_browser_e2e_retry_timeout_and_idempotency PASSED [100%]
+
+- generated xml file: <temporary-review-directory>\python-tests.xml -
+============================= 17 passed in 37.12s =============================

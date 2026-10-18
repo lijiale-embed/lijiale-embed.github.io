@@ -1,0 +1,24 @@
+ .gitignore                                       |   5 +++
+ README.md                                        |  40 ++++++++++++++++++++---
+ automation/evidence/pytest.xml                   |   2 +-
+ automation/tests/test_automation.py              |   4 +--
+ downloads/automation-source.zip                  | Bin 402821 -> 402794 bytes
+ downloads/李佳乐_beU_RPA自动化实习_投递简历.docx | Bin 94758 -> 0 bytes
+ downloads/李佳乐_beU_RPA自动化实习_投递简历.pdf  | Bin 296638 -> 0 bytes
+ downloads/李佳乐_综合技术简历.docx               | Bin 94742 -> 0 bytes
+ downloads/李佳乐_综合技术简历.pdf                | Bin 296554 -> 0 bytes
+ index.html                                       |  19 ++++++-----
+ projects/beverage.html                           |  13 ++++----
+ projects/catalog-bot.html                        |  13 ++++----
+ projects/esp32.html                              |  11 ++++---
+ projects/guide-car.html                          |  11 ++++---
+ projects/ops-daily.html                          |  13 ++++----
+ styles.css                                       |   8 ++++-
+ 16 files changed, 94 insertions(+), 45 deletions(-)
+warning: in the working copy of 'index.html', CRLF will be replaced by LF the next time Git touches it
+warning: in the working copy of 'projects/beverage.html', CRLF will be replaced by LF the next time Git touches it
+warning: in the working copy of 'projects/catalog-bot.html', CRLF will be replaced by LF the next time Git touches it
+warning: in the working copy of 'projects/esp32.html', CRLF will be replaced by LF the next time Git touches it
+warning: in the working copy of 'projects/guide-car.html', CRLF will be replaced by LF the next time Git touches it
+warning: in the working copy of 'projects/ops-daily.html', CRLF will be replaced by LF the next time Git touches it
+warning: in the working copy of 'styles.css', CRLF will be replaced by LF the next time Git touches it

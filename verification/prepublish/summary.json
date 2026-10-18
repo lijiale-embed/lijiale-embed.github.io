@@ -1,0 +1,11 @@
+{
+  "api_groups_passed": 6,
+  "python_cases_passed": 17,
+  "site_responsive_checks": 21,
+  "business_checks": 14,
+  "external_links_passed": 7,
+  "download_source_api_groups_passed": 6,
+  "subpath_refresh_checks": 14,
+  "working_copy_tests": "isolated copy; existing screenshots and test artifacts preserved",
+  "deployments_performed": 0
+}

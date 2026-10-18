@@ -1,0 +1,18 @@
+{
+  "candidate_files": 118,
+  "archive_members_inspected": 118,
+  "secret_or_runtime_findings": [],
+  "machine_hostname_metadata": [],
+  "resume_or_document_entrances": [],
+  "original_source_urls_preserved": [
+    "https://github.com/lijiale-embed",
+    "https://github.com/lijiale-embed/Blind-Guide-Robot-Car",
+    "https://github.com/lijiale-embed/ESP32-Smart-Monitor-Hardware",
+    "https://github.com/lijiale-embed/Smart-Beverage-Maker-System",
+    "https://github.com/lijiale-embed/lijiale-embed.github.io"
+  ],
+  "missing_original_urls": [],
+  "original_assets": 17,
+  "changed_original_assets": [],
+  "privacy_boundary": "Only intentional existing contact email and phone retained. Text/filename scan is not an exhaustive security audit or Git history purge."
+}

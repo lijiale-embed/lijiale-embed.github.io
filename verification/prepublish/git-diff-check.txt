@@ -1,0 +1,7 @@
+warning: in the working copy of 'index.html', CRLF will be replaced by LF the next time Git touches it
+warning: in the working copy of 'projects/beverage.html', CRLF will be replaced by LF the next time Git touches it
+warning: in the working copy of 'projects/catalog-bot.html', CRLF will be replaced by LF the next time Git touches it
+warning: in the working copy of 'projects/esp32.html', CRLF will be replaced by LF the next time Git touches it
+warning: in the working copy of 'projects/guide-car.html', CRLF will be replaced by LF the next time Git touches it
+warning: in the working copy of 'projects/ops-daily.html', CRLF will be replaced by LF the next time Git touches it
+warning: in the working copy of 'styles.css', CRLF will be replaced by LF the next time Git touches it

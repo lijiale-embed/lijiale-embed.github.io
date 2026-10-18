@@ -24,7 +24,7 @@ def sample(tmp_path):
 def test_daily_golden_metrics_and_exception_ids(sample):
     folder=sample/'ops_daily'
     result=daily(folder/'data',folder/'outputs')
-    expected=json.loads((folder/'data/expected.json').read_text())
+    expected=json.loads((folder/'data/expected.json').read_text(encoding='utf-8'))
     assert {k:result[k] for k in expected}==expected
     issues=json.loads((folder/'outputs/exceptions.json').read_text(encoding='utf-8'))
     assert {r['record_id'] for r in issues}=={'O009','O010','O011','O012','O013','O014','O015','R004','R005','R006','R008'}
@@ -54,7 +54,7 @@ def test_daily_missing_column_fails_and_marks_status(sample):
     pd.DataFrame([dict(order_id='A')]).to_csv(folder/'data/orders_1.csv',index=False)
     with pytest.raises(ValueError,match='缺少字段'):
         daily(folder/'data',folder/'outputs')
-    assert json.loads((folder/'outputs/metrics.json').read_text())['status']=='failed'
+    assert json.loads((folder/'outputs/metrics.json').read_text(encoding='utf-8'))['status']=='failed'
 
 
 def test_duplicate_product_master_aborts(sample):

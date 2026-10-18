@@ -1,0 +1,9 @@
+{
+  "name": "device-desk",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=24 <25" },
+  "scripts": { "start": "node server.js", "test": "node --test test/*.test.js" },
+  "dependencies": { "express": "^5.1.0" }
+}

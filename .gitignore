@@ -7,3 +7,8 @@ automation/**/outputs/*.tmp*
 *.sqlite
 *.sqlite-journal
 *.log
+
+node_modules/
+fullstack/device-desk/data/
+*.sqlite-wal
+*.sqlite-shm

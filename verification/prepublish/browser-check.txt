@@ -1,0 +1,166 @@
+{
+  "checked_at": "2026-10-18",
+  "responsive_checks": [
+    {
+      "page": "index.html",
+      "width": 1440,
+      "status": "passed"
+    },
+    {
+      "page": "projects/beverage.html",
+      "width": 1440,
+      "status": "passed"
+    },
+    {
+      "page": "projects/catalog-bot.html",
+      "width": 1440,
+      "status": "passed"
+    },
+    {
+      "page": "projects/device-desk.html",
+      "width": 1440,
+      "status": "passed"
+    },
+    {
+      "page": "projects/esp32.html",
+      "width": 1440,
+      "status": "passed"
+    },
+    {
+      "page": "projects/guide-car.html",
+      "width": 1440,
+      "status": "passed"
+    },
+    {
+      "page": "projects/ops-daily.html",
+      "width": 1440,
+      "status": "passed"
+    },
+    {
+      "page": "index.html",
+      "width": 768,
+      "status": "passed"
+    },
+    {
+      "page": "projects/beverage.html",
+      "width": 768,
+      "status": "passed"
+    },
+    {
+      "page": "projects/catalog-bot.html",
+      "width": 768,
+      "status": "passed"
+    },
+    {
+      "page": "projects/device-desk.html",
+      "width": 768,
+      "status": "passed"
+    },
+    {
+      "page": "projects/esp32.html",
+      "width": 768,
+      "status": "passed"
+    },
+    {
+      "page": "projects/guide-car.html",
+      "width": 768,
+      "status": "passed"
+    },
+    {
+      "page": "projects/ops-daily.html",
+      "width": 768,
+      "status": "passed"
+    },
+    {
+      "page": "index.html",
+      "width": 390,
+      "status": "passed"
+    },
+    {
+      "page": "projects/beverage.html",
+      "width": 390,
+      "status": "passed"
+    },
+    {
+      "page": "projects/catalog-bot.html",
+      "width": 390,
+      "status": "passed"
+    },
+    {
+      "page": "projects/device-desk.html",
+      "width": 390,
+      "status": "passed"
+    },
+    {
+      "page": "projects/esp32.html",
+      "width": 390,
+      "status": "passed"
+    },
+    {
+      "page": "projects/guide-car.html",
+      "width": 390,
+      "status": "passed"
+    },
+    {
+      "page": "projects/ops-daily.html",
+      "width": 390,
+      "status": "passed"
+    }
+  ],
+  "app_widths": [
+    1440,
+    768,
+    390
+  ],
+  "business_checks": [
+    "设备表单增查改删",
+    "搜索空结果",
+    "前端必填校验",
+    "Escape 关闭设备详情",
+    "工单创建与详情",
+    "完整状态流转与筛选",
+    "关联设备删除保护",
+    "输入作为文本呈现",
+    "服务进程重启后工单保留",
+    "服务异常提示与恢复刷新",
+    "真实空库首次启动",
+    "源码 ZIP 与 Excel 实际下载",
+    "键盘跳至正文",
+    "导航与返回顶部"
+  ],
+  "local_link_occurrences": 138,
+  "local_resources": 35,
+  "external_links": [
+    {
+      "url": "https://github.com/lijiale-embed",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/lijiale-embed/Blind-Guide-Robot-Car",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/lijiale-embed/ESP32-Smart-Monitor-Hardware",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/lijiale-embed/Smart-Beverage-Maker-System",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/lijiale-embed/lijiale-embed.github.io",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/lijiale-embed/lijiale-embed.github.io/tree/main/automation/catalog_bot",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/lijiale-embed/lijiale-embed.github.io/tree/main/automation/ops_daily",
+      "status": 200
+    }
+  ],
+  "javascript_errors": [],
+  "http_errors": [],
+  "resume_entry_check": "passed"
+}
